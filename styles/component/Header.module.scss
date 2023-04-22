@@ -1,0 +1,110 @@
+@use "../../styles/variables.scss" as variables;
+
+.h1 {
+    font-size: 3rem;
+    font-family: variables.$font-header;
+    color: variables.$color-main;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 2rem;
+    font-family: variables.$font-header;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 25%;
+    height: 25%;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@include variables.small {
+    .h1 {
+        font-size: 3rem;
+    }
+    
+    .h3 {
+        font-size: 2rem;
+    }
+
+    .contact {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@include variables.mid {
+    .h1 {
+        font-size: 4rem;
+    }
+    
+    .h3 {
+        font-size: 2.5rem;
+    }
+
+    .contact {
+        font-size: 1.8rem;
+    }
+}
+
+@include variables.medium {
+    .h1 {
+        font-size: 5rem;
+    }
+    
+    .h3 {
+        font-size: 3rem;
+    }
+
+    .contact {
+        font-size: 2rem;
+    }
+}
+
+@include variables.large {
+    .h1 {
+        font-size: 6rem;
+    }
+    
+    .h3 {
+        font-size: 4rem;
+    }
+
+    .contact {
+        font-size: 2.5rem;
+    }
+}
+
+@include variables.xlarge {
+    .h1 {
+        font-size: 7rem;
+    }
+    
+    .h3 {
+        font-size: 5rem;
+    }
+
+    .contact {
+        font-size: 3rem;
+    }
+}

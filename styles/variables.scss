@@ -1,0 +1,43 @@
+//variables
+$small: 700px;
+$mid: 800px;
+$medium: 900px;
+$large: 1200px;
+$xlarge: 1800px;
+
+$font-header: 'Anton', sans-serif;
+$font-accent: 'Zilla Slab', serif;
+
+//mixins & placeholders
+@mixin small {
+    @media only screen and (min-width: $small) {
+      @content;
+    }
+}
+
+@mixin mid {
+  @media only screen and (min-width: $mid) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media only screen and (min-width: $medium) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin xlarge {
+  @media only screen and (min-width: $xlarge) {
+    @content;
+  }
+}
+
+$color-accent: #97a7b3;
+$color-main: #ffd700;
