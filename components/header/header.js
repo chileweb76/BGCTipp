@@ -1,12 +1,13 @@
-import styles from '../styles/component/Header.module.scss'
+import styles from '../header/Header.module.scss'
 import Image from 'next/image';
-import image from '../public/assets/bruce-logo-4.png'
+import logo from '../../public/images/bruce-logo-4.png'
+import NavBar from '../navbar/navBar';
 
-export default function Header() {
+const Header = () => {
     return (
         <>
             <div className={styles.container}>
-                <Image src={image} alt="Logo for BGC" className={styles.image}/>
+                <Image src={logo} alt="Logo for BGC" className={styles.image}/>
                 <div>
                     <h1 className={styles.h1}>Barnes General Contracting</h1>
                     <h3 className={styles.h3}>Tipp City, Ohio</h3>
@@ -14,8 +15,11 @@ export default function Header() {
                         <a href="tel:9375243332">(937)524-3332</a>
                         <a href="mailto:bruce@bgctippcity.com">bruce@bgctippcity.com</a>
                     </div>
+                    <NavBar />
                 </div>
             </div>
         </>
     );
 }
+
+export default Header;

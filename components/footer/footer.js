@@ -1,9 +1,11 @@
-import styles from '../styles/component/Footer.module.scss'
+import styles from '../footer/Footer.module.scss'
 
-export default function Footer() {
+const Footer = () => {
     return (
         <>
             <p className={styles.p}>©2023 Barnes General Contracting</p>
         </>
     );
 }
+
+export default Footer;
