@@ -1,4 +1,5 @@
 //variables
+$xsmall: 600px;
 $small: 700px;
 $mid: 800px;
 $medium: 900px;
@@ -7,6 +8,12 @@ $xlarge: 1800px;
 
 
 //mixins & placeholders
+@mixin xsmall {
+  @media only screen and (max-width: $xsmall) {
+    @content
+  }
+}
+
 @mixin small {
     @media only screen and (min-width: $small) {
       @content;
