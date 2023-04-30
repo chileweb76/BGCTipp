@@ -1,0 +1,150 @@
+@use "../styles/variables.scss" as variables;
+
+.main {
+    padding: 5rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 90%;
+}
+
+.inputLabel {
+    font-size: 1.6rem;
+    margin-bottom: .6rem;
+}
+
+.inputField {
+    height: 3rem;
+    font-size: 2rem;
+}
+ 
+.inputMessage {
+    height: 30rem;
+    resize: none;
+    font-size: 2rem;
+ }
+
+.h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.button {
+    float: right;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 1.6rem;
+    margin-top: 2rem;
+    color: variables.$color-secondary;
+    background-color: variables.$color-main;
+}
+
+.p {
+    color: red;
+}
+
+@include variables.small {
+    .h2 {
+        font-size: 2.5rem;
+    }
+
+    .h3 {
+        font-size: 2.5rem;
+    }
+
+    .inputLabel {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        font-size: 2rem;
+    }
+}
+
+@include variables.mid {
+    .h2 {
+        font-size: 3rem;
+    }
+
+    .h3 {
+        font-size: 3rem;
+    }
+
+    .inputLabel {
+        font-size: 2.5rem;
+    }
+
+    .button {
+        font-size: 2.5rem;
+    }
+}
+
+@include variables.medium {
+    .h2 {
+        font-size: 4rem;
+    }
+
+    .h3 {
+        font-size: 4rem;
+    }
+
+    .inputLabel {
+        font-size: 2.4rem;
+    }
+
+    .button {
+        font-size: 3rem;
+    }
+}
+
+@include variables.large {
+    .h2 {
+        font-size: 5rem;
+    }
+
+    .h3 {
+        font-size: 5rem;
+    }
+
+    .inputLabel {
+        font-size: 3rem;
+    }
+
+    .button {
+        font-size: 4rem;
+    }
+}
+
+@include variables.xlarge {
+    .h2 {
+        font-size: 6rem;
+    }
+
+    .h3 {
+        font-size: 6rem;
+    }
+
+    .inputLabel {
+        font-size: 3.6rem;
+    }
+
+    .button {
+        font-size: 5rem;
+    }
+}

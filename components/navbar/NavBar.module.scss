@@ -2,7 +2,7 @@
 
 .active {
     background-color: variables.$color-main;
-    color: #232c33;
+    color: variables.$color-secondary;
 }
 
 .link {
@@ -14,7 +14,7 @@
         color: variables.$color-main;
 
         &.active {
-            color: #232c33;
+            color: variables.$color-secondary;
         }
     }
 }
@@ -40,10 +40,6 @@
 @include variables.medium {
     .link {
         font-size: 3rem;
-
-        &:hover {
-            font-size: 4rem;
-        }
     }
 }
 

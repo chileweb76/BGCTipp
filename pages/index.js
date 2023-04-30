@@ -6,6 +6,7 @@ import right from '../public/images/hammer_plier.png'
 import hvac from '../public/images/hvac.jpg'
 import waterHeater from '../public/images/water_heater.jpg'
 import electrical from '../public/images/electric.jpg'
+import { zillaSlab } from '@/utils/fonts'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <main>
+     <main className={zillaSlab.className}>
         <div className={styles.container}>
           <Image src={left} alt="hammer nails on board" className={styles.image} />
           <div>
