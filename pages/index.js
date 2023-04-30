@@ -29,21 +29,21 @@ export default function Home() {
           <Image src={right} alt="hammer, pliers, paint stirrer" className={styles.image} />
         </div>
         <h2 className={styles.h2}>Specialized in:</h2>
-        <div className={styles.container}>
-          <p className={styles.p}>Heating and Air Conditioning</p>
-          <Image src={hvac} alt="heating/ac display unit" className={styles.image} />
-        </div>
-        <div className={styles.container}>
-          <Image src={waterHeater} alt="man repairing water heater" className={styles.image} />
-          <p className={styles.p}>Water Heater</p>
-        </div>
-        <div className={styles.container}>
-          <p className={styles.p}>Electrical Work</p>
-          <Image src={electrical} alt="electrical equipment" className={styles.image} />
-        </div>
-        <div className={styles.container}>
-          <p className={styles.p}>And Much More</p>
-        </div>
+          <div className={styles.container}>
+            <p className={styles.p}>Heating and Air Conditioning</p>
+            <Image src={hvac} alt="heating/ac display unit" className={styles.image2} />
+          </div>
+          <div className={styles.container}>
+            <Image src={waterHeater} alt="man repairing water heater" className={styles.image2} />
+            <p className={styles.p}>Water Heater</p>
+          </div>
+          <div className={styles.container}>
+            <p className={styles.p}>Electrical Work</p>
+            <Image src={electrical} alt="electrical equipment" className={styles.image2} />
+          </div>
+          <div className={styles.container}>
+            <p className={styles.p}>And Much More</p>
+          </div>
      </main>
     </>
   )

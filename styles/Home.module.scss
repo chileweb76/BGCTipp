@@ -12,6 +12,11 @@
     height: 25%;
 }
 
+.image2 {
+    width: 25%;
+    height: 25%;
+}
+
 .h2 {
     font-size: 2rem;
     text-align: center;
@@ -25,6 +30,10 @@
 @include variables.xsmall {
     .image {
         display: none;
+    }
+
+    .container {
+        margin: 2.5rem;
     }
 }
 
