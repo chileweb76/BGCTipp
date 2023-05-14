@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "src": "acinstall.jpeg",
+        "alt": "ac unit installation",
+        "description": "Unboxing of ac unit"
+
+    },
+    {
+        "id": 1,
+        "src": "acinstall2.jpeg",
+        "alt": "ac unit installation",
+        "description": "Side image of ac unit"
+    },
+    {
+        "id": 3,
+        "src": "acinstall3.jpeg",
+        "alt": "ac unit installation",
+        "description": "Second side image"
+    },
+    {
+        "id": 4,
+        "src": "doors.jpeg",
+        "alt": "doors ready for installation",
+        "description": "Doors to be installed"
+    },
+    {
+        "id": 5,
+        "src": "doorframe.jpeg",
+        "alt": "framing of door for installation",
+        "description": "Framing of door"
+    },
+    {
+        "id": 6,
+        "src": "doorinstall.jpeg",
+        "alt": "door after installation",
+        "description": "Finished door"
+    },
+    {
+        "id": 7,
+        "src": "electrical.jpeg",
+        "alt": "electrical unit testing",
+        "description": "Testing unit"
+    },
+    {
+        "id": 8,
+        "src": "unit.jpeg",
+        "alt": "electrical box unit"
+    },
+    {
+        "id": 9,
+        "src": "lattice.jpeg",
+        "alt": "garden lattice installed",
+        "description": "Garden lattice installed"
+    },
+    {
+        "id": 10,
+        "src": "vanitybefore.jpeg",
+        "alt": "before image for vanity install",
+        "description": "Vanity before"
+    },
+    {
+        "id": 11,
+        "src": "vanityinside.jpeg",
+        "alt": "vanity inside after install",
+        "description": "Vanity inside after install"
+    },
+    {
+        "id": 12,
+        "src": "vanityafter.jpeg",
+        "alt": "vanity after",
+        "description": "Vanity after install"
+    }
+]

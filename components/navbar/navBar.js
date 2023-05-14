@@ -6,7 +6,6 @@ import styles from "../navbar/NavBar.module.scss"
 const NavBar = () => {
     const router = useRouter();
     const currentRoute = router.pathname;
-    console.log(currentRoute)
 
     return (
         <nav className={styles.nav}>
