@@ -20,6 +20,6 @@ body, nav, section, footer, article, h1, h2, h3, h4, p, a, ol, ul, li, button, f
 html,
 body {
   font-size: 62.5%;
-  background-color: #232c33;
+  background-color: variables.$color-secondary;
   color: variables.$color-accent;
 }

@@ -1,6 +1,6 @@
 import styles from '../header/Header.module.scss'
 import Image from 'next/image';
-import logo from '../../public/images/bruce-logo-4.png'
+import logo from '../../public/images/logo.png'
 import NavBar from '../navbar/navBar';
 import { anton, zillaSlab} from '../../utils/fonts'
 

@@ -16,9 +16,9 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         console.log('Sending')
-       
+       console.log(process.env.NEXT_PUBLIC_PUBLIC_KEY)
         
-        emailjs.sendForm('service_eek62sq','template_dwt3cp2', form.current, '3fYt6b_rKsQ3P-_eS')
+        emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID,process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           console.log('Response succeeded!')
